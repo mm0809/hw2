@@ -9,8 +9,10 @@ $ sudo mbed compile --source . --source ~/ee2405/mbed-os-build/ -m B_L4S5I_IOT01
 ```
 $ sudo python3 FFT.py
 ```
+>The python script will automatically set the sample rate according the message send by the board, so you don't need to edit it when select different frequency wave.
 3. Use button to choose  frequency of triangle signal.
 4. Push 'sel button' to start genatare and sample the wave.
+>After push the 'sel button' the board will start to genarate wave for 1s.
 5. Get output result.
 
 ## Result
