@@ -6,9 +6,9 @@
 $ sudo mbed compile --source . --source ~/ee2405/mbed-os-build/ -m B_L4S5I_IOT01A -t GCC_ARM -f
 ```
 2. Excute FFT.py 
-'''
+```
 $ sudo python3 FFT.py
-'''
+```
 3. Use button to choose  frequency of triangle signal.
 4. Push 'sel button' to start genatare and sample the wave.
 5. Get output result.
