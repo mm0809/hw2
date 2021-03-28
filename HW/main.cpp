@@ -102,8 +102,13 @@ int main() {
             menuArrowUpdate();
             ThisThread::sleep_for(500ms);
         }
+        if (dwBtn.read()) {
+            arrowDw();
+            menuArrowUpdate();
+            ThisThread::sleep_for(500ms);
+        }
         if (selBtn.read()) {
-            ThisThread::sleep_for(700ms);
+            ThisThread::sleep_for(500ms);
             genWav(us[arrow]);
         }
     }
